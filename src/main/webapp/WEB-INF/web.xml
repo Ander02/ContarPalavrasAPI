@@ -21,10 +21,9 @@
             <param-value>com.anderson.service;org.codehaus.jackson.jaxrs</param-value> 
         </init-param>
         
-        <!-- Permitindo métodos assíncronos -->
-        <async-supported>true</async-supported> 
     </servlet>
        
+       <!-- Rota da API config -->
     <servlet-mapping>
         <servlet-name>Jersey REST Service</servlet-name>
         <url-pattern>/api/*</url-pattern>
